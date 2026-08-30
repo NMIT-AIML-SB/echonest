@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="@color/echo_background">
+
+    <!-- Logo -->
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/echonest_logo"
+        android:contentDescription="EchoNest Logo"
+        android:scaleType="fitCenter" />
+
+    <!-- Welcome -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Welcome to EchoNest"
+        android:textColor="@color/echo_text_primary"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Help monitor urban bird biodiversity"
+        android:textColor="@color/echo_text_secondary"
+        android:textSize="15sp" />
+
+
+    <!-- Login Card -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_echo_card"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get started"
+            android:textColor="@color/echo_text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sign in to start recording and exploring bird sounds."
+            android:textColor="@color/echo_text_secondary"
+            android:textSize="13sp" />
+
+        <!-- Google Login -->
+        <Button
+            android:id="@+id/btnGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/echo_button"
+            android:text="Continue with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/echo_text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!-- Bottom information -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="By continuing, you agree to use EchoNest responsibly for biodiversity monitoring."
+        android:textColor="@color/echo_text_secondary"
+        android:textSize="11sp" />
+
+</LinearLayout>

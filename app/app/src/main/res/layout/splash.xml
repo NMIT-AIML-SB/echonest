@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/echo_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <!-- EchoNest Logo -->
+
+        <ImageView
+            android:id="@+id/echoNestLogo"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/echonest_logo"
+            android:contentDescription="EchoNest Logo"
+            android:scaleType="fitCenter" />
+
+        <!-- App Name -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="EchoNest"
+            android:textColor="@color/echo_text_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Tagline -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Bird Recording &amp; Biodiversity Monitoring"
+            android:textColor="@color/echo_text_secondary"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <!-- Small accent line -->
+
+        <View
+            android:layout_width="55dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/echo_accent" />
+
+    </LinearLayout>
+
+</FrameLayout>

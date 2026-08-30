@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="echo_background">#061525</color>
+    <color name="echo_card">#0D2438</color>
+    <color name="echo_card_light">#102B42</color>
+
+    <color name="echo_accent">#4CCB91</color>
+    <color name="echo_accent_dark">#319B70</color>
+
+    <color name="echo_text_primary">#FFFFFF</color>
+    <color name="echo_text_secondary">#AEBCCC</color>
+    <color name="echo_button">#1E5A8A</color>
+
+    <color name="echo_border">#214B73</color>
+    <color name="echo_input">#0A1E31</color>
+</resources>
