@@ -1,0 +1,19 @@
+# Data and results are NOT committed (large, and some is licensed -- see data/README.md)
+*.tif
+*.tiff
+*.xlsx
+*.csv
+*.geojson
+*.gpkg
+*.png
+*.html
+work/
+outputs/
+osm_cache_*/
+BBMP_wards_raw.geojson
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

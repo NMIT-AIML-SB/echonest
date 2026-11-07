@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+matplotlib
+rasterio
+shapely>=2.0
+geopandas>=1.0
+pyproj
+openpyxl
+folium
+osmnx>=2.0        # only for the human-activity scripts (OpenStreetMap download)
+contextily        # optional: satellite background for the static Ferns picture
+pytest            # only to run the tests
