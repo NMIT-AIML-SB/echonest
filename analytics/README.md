@@ -145,6 +145,3 @@ Data is not stored in this repository (see `data/README.md`). The city boundary 
 Municipal_Spatial_Data, roads and buildings from OpenStreetMap contributors (ODbL), bird data from eBird.
 Check each source's terms before sharing the data. No licence has been chosen for the code yet.
 
-## Authors
-
-Fill in the names of the team members and the professor.
